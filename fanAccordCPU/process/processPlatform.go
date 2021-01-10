@@ -10,6 +10,7 @@ import (
 
 	"periph.io/x/periph/conn/gpio"
 	"periph.io/x/periph/conn/gpio/gpioreg"
+	"periph.io/x/periph/conn/physic"
 	"periph.io/x/periph/host"
 	"periph.io/x/periph/host/rpi"
 )
@@ -78,7 +79,8 @@ func (p *PlatformProcessor) ActiveFan(pin string) {
 				p.logger.LogInfo("fanPin.Read", "success", "fan actived, no action")
 				continue
 			}
-			err := fanPin.Out(gpio.High)
+			// err := fanPin.Out(gpio.High)
+			err := fanPin.PWM(gpio.DutyMax, 10*physic.Hertz)
 			if err != nil {
 				p.logger.LogError("fanPin.Out", "error", fmt.Sprintf("set %s output", fanPin.Name()), gpio.High, err)
 				continue
@@ -89,7 +91,8 @@ func (p *PlatformProcessor) ActiveFan(pin string) {
 				p.logger.LogInfo("fanPin.Read", "success", "fan deactived, no action")
 				continue
 			}
-			err := fanPin.Out(gpio.Low)
+			// err := fanPin.Out(gpio.Low)
+			err := fanPin.PWM(gpio.DutyMax/5, 10*physic.Hertz)
 			if err != nil {
 				p.logger.LogError("fanPin.Out", "error", fmt.Sprintf("set %s output", fanPin.Name()), gpio.Low, err)
 				continue
