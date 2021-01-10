@@ -3,6 +3,7 @@ raspberry相关开发
 ## 目录
 1. fanAccordCPU 根据温度激活树莓派的风扇，需要使用GPIO引脚进行供电，如果直插，考虑使用电压3V3的风扇
 2. LED 01Studio PiHAT 灯组测试
+2. BUTTON 01Studio PiHAT 按钮针脚状态变更测试
 ***
 ## 注意
 1. 引脚有三种编码方式：
