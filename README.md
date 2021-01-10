@@ -14,7 +14,7 @@ raspberry相关开发
 ***
 ## 参考
 + [GPIO引脚定义](https://pinout.xyz/)
-+ ![RPI.GPIO](raw.githubusercontent.com/kintansky/raspberry/main/PinOut.png)
++ ![RPI.GPIO](https://raw.githubusercontent.com/kintansky/raspberry/main/PinOut.png)
 
 
 
