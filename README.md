@@ -13,8 +13,6 @@ raspberry相关开发
 2. 第二需要注意的是GPIO操作**需要root权限**，否则有可能在不抛出错误情况下照常运行。
 ***
 ## 参考
-+ [GPIO引脚定义](https://pinout.xyz/)
-+ ![RPI.GPIO](https://raw.githubusercontent.com/kintansky/raspberry/main/PinOut.png)
-
-
+[GPIO引脚定义](https://pinout.xyz/)  
+![RPI.GPIO](https://raw.githubusercontent.com/kintansky/raspberry/main/PinOut.png)  
 
