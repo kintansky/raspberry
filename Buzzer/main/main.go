@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"time"
 
@@ -23,5 +24,9 @@ func main() {
 	p.Out(gpio.High)
 	p.Out(gpio.Low)
 	time.Sleep(5)
-	p.Out(gpio.High)
+	err := p.Halt()
+	if err != nil {
+		fmt.Println("p.Halt err:", err)
+		return
+	}
 }
