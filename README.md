@@ -5,6 +5,10 @@ raspberry相关开发
 2. LED 01Studio PiHAT 灯组测试
 3. BUTTON 01Studio PiHAT 按钮针脚状态变更测试
 4. BUZZER 01Studio PiHAT 内置PNP三极管测试
+5. SERVO 舵机测试程序
+    > - 国华9g数字舵机（180度）测试结果
+    > - 5ms(200Hz)，最小分辨率大概为50us，范围：750us=-90度 3700us=+90度 
+
 ***
 ## 注意
 1. 引脚有三种编码方式：
