@@ -184,6 +184,8 @@ periph.io/x/conn v0.0.0-20201229155756-6ef5117d7267 h1:hE3SnWytl/gaEF70qlWN5YREo
 periph.io/x/conn v0.0.0-20201229155756-6ef5117d7267/go.mod h1:vZTobURVlmlSmjJ8DuzqbsJRp3uKBP7zNVLM1/4FsI0=
 periph.io/x/conn/v3 v3.6.7 h1:hem/gzoUI0tnvdJOJAk+XLBhqBGX9sHkwShBXRGGy0k=
 periph.io/x/conn/v3 v3.6.7/go.mod h1:3OD27w9YVa5DS97VsUxsPGzD9Qrm5Ny7cF5b6xMMIWg=
+periph.io/x/devices v0.0.0-20201229164854-50dea9a96387 h1:GrJDbWCoZ/E2YsoBKLA0qKMF/UZhfRrRB9LgN9HQvBU=
+periph.io/x/devices v0.0.0-20201229164854-50dea9a96387/go.mod h1:871g2SsBzsTExj4DI0vN334kruiR7hf36rn4oiVPF6E=
 periph.io/x/host v0.0.0-20201229164216-fc8f19009953 h1:6vXqvRUA2JXu7GGyrvF2Dtxku9UtvP8T/plngenvTXM=
 periph.io/x/host v0.0.0-20201229164216-fc8f19009953/go.mod h1:atYip78qSi22Ngxlq4zWCMYTXvA1uJEqRvCPKsTKeI8=
 periph.io/x/host/v3 v3.6.7 h1:hUVkGKJ235XocQIRiITxSmP8TT8f27oiN7R2dJkomIE=
@@ -191,4 +193,6 @@ periph.io/x/host/v3 v3.6.7/go.mod h1:wO+N7Q6qU1Pp9EXBfyV9t7kPAlvZxYoJl4ptK62qhSY
 periph.io/x/periph v1.0.0 h1:bwoS1Re14o6WinWbTuZuwX9Yh/5Rco4iNCl/CA+Kca8=
 periph.io/x/periph v3.6.4+incompatible h1:8FyXTbu9lcMVofz8mf+cj1pzTLN4V6EuPY2EF+DoJF4=
 periph.io/x/periph v3.6.4+incompatible/go.mod h1:EWr+FCIU2dBWz5/wSWeiIUJTriYv9v2j2ENBmgYyy7Y=
+periph.io/x/periph v3.6.7+incompatible h1:ZfRdHbcxVekgSJZmxp3873YpxNdWs6wg7waDCF7GB18=
+periph.io/x/periph v3.6.7+incompatible/go.mod h1:EWr+FCIU2dBWz5/wSWeiIUJTriYv9v2j2ENBmgYyy7Y=
 sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
